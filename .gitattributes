@@ -1,0 +1,9 @@
+# Keep language stats on Django / Python, not templates or cached bytecode
+*.html linguist-detectable=false
+*.css linguist-vendored
+*.pyc linguist-generated=true
+__pycache__/** linguist-generated=true
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+db.sqlite3 linguist-generated=true
